@@ -1,0 +1,9 @@
+C:\inetpub\wwwroot\TCC\TCC\bin\TCC.dll.config
+C:\inetpub\wwwroot\TCC\TCC\bin\TCC.dll
+C:\inetpub\wwwroot\TCC\TCC\bin\TCC.pdb
+C:\inetpub\wwwroot\TCC\TCC\bin\TCC.xml
+C:\inetpub\wwwroot\TCC\TCC\obj\Debug\TCC.Resources.resources
+C:\inetpub\wwwroot\TCC\TCC\obj\Debug\TCC.vbproj.GenerateResource.Cache
+C:\inetpub\wwwroot\TCC\TCC\obj\Debug\TCC.dll
+C:\inetpub\wwwroot\TCC\TCC\obj\Debug\TCC.xml
+C:\inetpub\wwwroot\TCC\TCC\obj\Debug\TCC.pdb
