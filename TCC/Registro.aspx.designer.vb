@@ -27,4 +27,8 @@ Partial Public Class Registro1
     Protected WithEvents txtLogin As System.Web.UI.WebControls.TextBox
     Protected WithEvents txtEmail As System.Web.UI.WebControls.TextBox
     Protected WithEvents txtSenha As System.Web.UI.WebControls.TextBox
+    Protected WithEvents Nome As System.Web.UI.WebControls.Label
+    Protected WithEvents Login As System.Web.UI.WebControls.Label
+    Protected WithEvents Email As System.Web.UI.WebControls.Label
+    Protected WithEvents Senha As System.Web.UI.WebControls.Label
 End Class

@@ -91,6 +91,7 @@
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="Default.aspx" />
+    <Content Include="Login.aspx" />
     <Content Include="Registro.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -100,8 +101,12 @@
     </Compile>
     <Compile Include="ASCS\Menu.ascx.vb">
       <DependentUpon>Menu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Classes\Comuns.vb" />
+    <Compile Include="Classes\DbContext.vb" />
+    <Compile Include="Classes\DbSet.vb" />
+    <Compile Include="Classes\Login.vb" />
     <Compile Include="Classes\Registro.vb" />
     <Compile Include="Classes\RegistroModel.vb" />
     <Compile Include="Default.aspx.designer.vb">
@@ -110,6 +115,13 @@
     <Compile Include="Default.aspx.vb">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">

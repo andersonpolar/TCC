@@ -1,7 +1,8 @@
 ﻿Imports System.Data.Entity
 Imports System.Collections.Generic
 Imports System.Linq
-Public Class RegistroContext
+
+Public Class LoginContext
     Inherits DbContext
 
     Public Sub New()
@@ -9,16 +10,14 @@ Public Class RegistroContext
         Me.Database.CreateIfNotExists()
     End Sub
 
-    Public Property ManipularRegistro As DbSet(Of Registro)
+    Public Property EfetuarLogin As DbSet(Of Login)
 
-    Public Function InserirRegistro(ByVal Nome As String, ByVal Login As String, ByVal Email As String, ByVal Senha As String) As Boolean
+    Public Function Logar(ByVal Login As String, ByVal Senha As String) As Boolean
         Try
-            Dim RegistroInserir As New Registro
-            RegistroInserir.Nome = Nome
-            RegistroInserir.Login = Login
-            RegistroInserir.Email = Email
-            RegistroInserir.Senha = Senha
-            ManipularRegistro.Add(RegistroInserir)
+            Dim UsuarioLogar As New Login
+            UsuarioLogar.Login = Login
+            UsuarioLogar.Senha = Senha
+            EfetuarLogin.Add(UsuarioLogar)
             SaveChanges()
             Return True
 
