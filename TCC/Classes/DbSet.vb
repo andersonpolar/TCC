@@ -5,4 +5,8 @@ Public Class DbSet(Of T)
         Throw New NotImplementedException
     End Sub
 
+    Sub Add(ConvidadoInserir As Registro)
+        Throw New NotImplementedException
+    End Sub
+
 End Class

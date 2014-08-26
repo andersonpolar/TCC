@@ -1,10 +1,8 @@
 ﻿Imports System.ComponentModel.DataAnnotations
 Imports System.ComponentModel.DataAnnotations.Schema
 
-<Table("Registro")> _
-Public Class Registro
-
-    Friend Telefone As String
+<Table("Convidados")> _
+Public Class Convidados
 
     <Key()> _
     <DatabaseGenerated(DatabaseGeneratedOption.Identity)> _
@@ -14,11 +12,8 @@ Public Class Registro
     Public Property Nome() As String
 
     <Required(ErrorMessage:="Campo Obrigatório")> _
-    Public Property Login() As String
-
-    <Required(ErrorMessage:="Campo Obrigatório")> _
     Public Property Email() As String
 
     <Required(ErrorMessage:="Campo Obrigatório")> _
-    Public Property Senha() As String
+    Public Property Telefone() As String
 End Class
