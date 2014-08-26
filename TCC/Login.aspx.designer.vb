@@ -27,4 +27,5 @@ Partial Public Class Login
     Protected WithEvents btnLogar As Global.System.Web.UI.WebControls.Button
     Protected WithEvents Login As Label
     Protected WithEvents Senha As Label
+    Protected WithEvents lblError As Label
 End Class

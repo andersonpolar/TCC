@@ -7,8 +7,22 @@
 
     Protected Sub Logar_click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btnLogar.Click
         Try
-            Dim login As New LoginContext
-            login.EfetuarLogin(txtLogin.Text, txtSenha.Text)
+            Dim registro As New RegistroContext
+
+            If txtLogin.Text = "" Then
+                lblError.Text = "Preencha o nome de usuário."
+            End If
+            If txtSenha.Text = "" Then
+                lblError.Text = "Preencha a senha."
+            End If
+
+            If (registro.LoginExiste(txtLogin.Text, txtSenha.Text) = True) Then
+                Session("Logado") = "true"
+                lblError.Text = "Logado"
+            Else
+                Session("Logado") = "false"
+                lblError.Text = "Login ou senha incorretos."
+            End If
         Catch ex As Exception
 
         End Try

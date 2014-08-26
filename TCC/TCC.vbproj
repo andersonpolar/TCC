@@ -43,6 +43,7 @@
     <Reference Include="EntityFramework, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -108,9 +109,6 @@
     <Compile Include="Classes\Comuns.vb" />
     <Compile Include="Classes\Convidados.vb" />
     <Compile Include="Classes\ConvidadosModel.vb" />
-    <Compile Include="Classes\DbContext.vb" />
-    <Compile Include="Classes\DbSet.vb" />
-    <Compile Include="Classes\Login.vb" />
     <Compile Include="Classes\Pacote.vb" />
     <Compile Include="Classes\PacoteModel.vb" />
     <Compile Include="Classes\Registro.vb" />

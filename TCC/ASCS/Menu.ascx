@@ -12,7 +12,8 @@
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="Default.aspx">Inicio</a></li>
+                        <li><a href="Default.aspx">Inicio</a></li>
+                        <li><a href="Login.aspx">Logar</a></li>
                         <li><a href="Registro.aspx">Registrar</a></li>
                         <li><a href="#">Sobre a empresa</a></li>
                         <li><a href="#">Contato</a></li>

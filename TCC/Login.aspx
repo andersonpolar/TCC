@@ -16,7 +16,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <link href="bootstrap3/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="starter-template.css" rel="stylesheet" />
+    <link href="bootstrap3/css/starter-template.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -30,6 +30,7 @@
         <asp:label>Senha:</asp:label>
         <asp:TextBox runat="server" id="txtSenha"></asp:TextBox>
         <asp:Button id="btnLogar" type="submit" Text="Logar" runat="server"></asp:Button>
+        <asp:label id="lblError" runat="server"></asp:label>
     </form>
 </body>
 </html>

@@ -1,10 +1,7 @@
 ﻿Imports System.ComponentModel.DataAnnotations
-Imports System.ComponentModel.DataAnnotations.Schema
 
 <Table("Registro")> _
 Public Class Registro
-
-    Friend Telefone As String
 
     <Key()> _
     <DatabaseGenerated(DatabaseGeneratedOption.Identity)> _

@@ -1,5 +1,4 @@
 ﻿Imports System.ComponentModel.DataAnnotations
-Imports System.ComponentModel.DataAnnotations.Schema
 
 <Table("Convidados")> _
 Public Class Convidados

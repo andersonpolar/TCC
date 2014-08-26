@@ -25,13 +25,4 @@ Public Class PacoteContext
         End Try
 
     End Function
-
-    Private Function Database() As Object
-        Throw New NotImplementedException
-    End Function
-
-    Private Sub SaveChanges()
-        Throw New NotImplementedException
-    End Sub
-
 End Class

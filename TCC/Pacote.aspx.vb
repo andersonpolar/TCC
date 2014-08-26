@@ -7,7 +7,9 @@
     Protected Sub btnGravar_click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btnGravar.Click
         Try
             Dim pacote As New PacoteContext
-            pacote.InserirPacote()
+            If pacote.InserirPacote(txtPacote.Text, txtPreco.Text) = True Then
+
+            End If
         Catch ex As Exception
 
         End Try
